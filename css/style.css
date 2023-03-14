@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/lesson_4/Lato-Heavy.woff2') format('woff2'),
+		url('../fonts/lesson_4/Lato-Heavy.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/lesson_4/Lato-Bold.woff2') format('woff2'),
+		url('../fonts/lesson_4/Lato-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/lesson_4/Lato-Black.woff2') format('woff2'),
+		url('../fonts/lesson_4/Lato-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/lesson_4/Lato-Medium.woff2') format('woff2'),
+		url('../fonts/lesson_4/Lato-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/lesson_4/Lato-Light.woff2') format('woff2'),
+		url('../fonts/lesson_4/Lato-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/lesson_4/Lato-Italic.woff2') format('woff2'),
+		url('../fonts/lesson_4/Lato-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/lesson_4/Lato-Thin.woff2') format('woff2'),
+		url('../fonts/lesson_4/Lato-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/lesson_4/Lato-Regular.woff2') format('woff2'),
+		url('../fonts/lesson_4/Lato-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/lesson_4/Larsseit-Thin.woff2') format('woff2'),
+		url('../fonts/lesson_4/Larsseit-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/lesson_4/Larsseit.woff2') format('woff2'),
+		url('../fonts/lesson_4/Larsseit.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/lesson_4/Larsseit-ExtraBold.woff2') format('woff2'),
+		url('../fonts/lesson_4/Larsseit-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/lesson_4/Larsseit-Italic.woff2') format('woff2'),
+		url('../fonts/lesson_4/Larsseit-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/lesson_4/Larsseit-Bold.woff2') format('woff2'),
+		url('../fonts/lesson_4/Larsseit-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/lesson_4/Larsseit-Medium.woff2') format('woff2'),
+		url('../fonts/lesson_4/Larsseit-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+
+
+.content-container__span {
+	color: blueviolet;
+}
+
+div {
+	font-size: 18px;
+}
+
+.content-container__one {
+	color: rgb(96, 21, 182);
+}
+
+#header_container {
+	color: steelblue;
+}
+
+.content-container__two p {
+	color: brown;
+}
+
+.content-container__three>p {
+	color: teal;
+}
+
+.content-container__four~p {
+	color: burlywood;
+}
+
+.content-container__four+p {
+	color: rgb(5, 75, 11);
+}
+
+.content-container__five,
+.content-container__six {
+	color: rgb(90, 9, 136);
+}
+
+h1 {
+	font-family: "Oswald";
+	font-weight: 700;
+	font-size: 48px;
+}
+
+a {
+	font-family: "Oswald";
+	font-weight: normal;
+	color: brown;
+}
+
+.content-container__one,
+.lesson_4 {
+	font-family: "Oswald";
+}
+
+.content-container__one,
+.lesson_4~p {
+	font-family: "Roboto";
+}
+
+.content-container__two,
+.lesson_4 {
+	font-family: "Larsseit";
+	font-weight: 500;
+}
