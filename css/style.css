@@ -169,6 +169,7 @@ div {
 
 .content-container__four+p {
 	color: rgb(5, 75, 11);
+
 }
 
 .content-container__five,
@@ -186,6 +187,7 @@ a {
 	font-family: "Oswald";
 	font-weight: normal;
 	color: brown;
+	text-transform: uppercase;
 }
 
 .content-container__one,
@@ -202,4 +204,60 @@ a {
 .lesson_4 {
 	font-family: "Larsseit";
 	font-weight: 500;
+}
+
+.lesson_5_one p {
+	margin-bottom: 25px;
+	padding: 15px;
+	text-indent: 20px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	text-align: right;
+	text-decoration: line-through;
+}
+
+.lesson_5_one {
+	margin-bottom: 15px;
+}
+
+.lesson_5_two p {
+	padding: 10px;
+	text-decoration: overline;
+	text-transform: lowercase;
+}
+
+
+.subclass {
+	letter-spacing: 15px;
+	line-height: 2;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 48px;
+}
+
+.lesson_5_five {
+	text-indent: 50px;
+	text-shadow: 10px 10px 1px rgb(22, 78, 120);
+	text-align: left;
+	margin-bottom: 15px;
+
+}
+
+.lesson_5_three {
+	white-space: nowrap;
+	text-indent: 40px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+
+.page {
+	margin-bottom: 25px;
+}
+
+.lesson_5_hat {
+	margin-bottom: 25px;
+}
+
+.lesson_5_footer {
+	margin-bottom: 25px;
 }
