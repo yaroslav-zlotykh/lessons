@@ -178,12 +178,18 @@ div {
 }
 
 h1 {
+	margin-bottom: 35px;
 	font-family: "Oswald";
 	font-weight: 700;
 	font-size: 48px;
 }
 
+.hat-container__link {
+	margin-bottom: 15px;
+}
+
 a {
+
 	font-family: "Oswald";
 	font-weight: normal;
 	color: brown;
@@ -228,12 +234,19 @@ a {
 
 
 .subclass {
+	padding: 10px;
+	outline: 5px dashed gold;
 	letter-spacing: 15px;
 	line-height: 2;
 	text-decoration: underline;
 	text-align: center;
 	font-size: 48px;
 }
+
+.subclass:hover {
+	outline: 10px dashed rgb(10, 109, 112);
+}
+
 
 .lesson_5_five {
 	text-indent: 50px;
@@ -258,6 +271,94 @@ a {
 	margin-bottom: 25px;
 }
 
-.lesson_5_footer {
+.footer-container p {
+	margin-bottom: 30px;
+}
+
+
+.lesson_6_hat {
+	margin: 0 auto;
+	width: 550px;
 	margin-bottom: 25px;
+}
+
+.lesson_6_one {
+	width: 100%;
+	overflow: visible;
+
+	margin: 0 auto;
+	max-height: 250px;
+
+}
+
+.lesson_6_one:hover {
+	width: 500px;
+	overflow: scroll;
+}
+
+.lesson_6_one~p {
+	border: 2px dotted blue;
+}
+
+.lesson_6_two {
+	margin: 0 auto;
+	width: 80%;
+	line-height: 1.2;
+	padding: 10px;
+
+	border: 5px solid green;
+	border-radius: 25px 25px;
+
+}
+
+.lesson_6_two:hover {
+	font-family: "Lato";
+	font-size: 20px;
+}
+
+[class*="_container__link"]:focus {
+	outline: 4px double rgb(130, 9, 102);
+
+}
+
+[class*="_container__link"]:hover {
+	font-size: 24px;
+	outline: 4px double rgb(130, 9, 102);
+
+}
+
+
+.visible_lesson_6 {
+	visibility: hidden;
+}
+
+.visible_lesson_6:hover {
+	visibility: visible;
+}
+
+.opacity_lesson_6 {
+	opacity: 0.5;
+
+}
+
+.opacity_lesson_6:hover {
+	opacity: 0;
+}
+
+.display_lesson_6 {
+	display: none;
+}
+
+
+
+.display_lesson_6:hover {
+	visibility: visible;
+}
+
+.lesson_6_six {
+	opacity: 0;
+}
+
+.lesson_6_six:hover {
+	opacity: 1;
 }
