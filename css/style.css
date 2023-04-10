@@ -134,6 +134,9 @@
 	font-display: swap;
 }
 
+body {
+	background-color: #d4a71f42;
+}
 
 
 
@@ -317,13 +320,13 @@ a {
 }
 
 [class*="_container__link"]:focus {
-	outline: 4px double rgb(130, 9, 102);
+	outline: 4px double rgb(17, 130, 9);
 
 }
 
 [class*="_container__link"]:hover {
-	font-size: 24px;
-	outline: 4px double rgb(130, 9, 102);
+	font-size: 18px;
+	outline: 4px double rgb(139, 85, 4);
 
 }
 
@@ -361,4 +364,65 @@ a {
 
 .lesson_6_six:hover {
 	opacity: 1;
+}
+
+.lesson-7-hat {
+	border: solid 5px red;
+	margin: 0 auto;
+	width: 50%;
+	background-color: rgba(17, 120, 188, 0.233);
+}
+
+.lesson-7-hat img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+
+}
+
+.lesson-7-hat p {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.lesson-7-page__paragraph__one {
+	opacity: 0.7;
+	margin: 0 auto;
+	width: 80%;
+	background: url("/img/lesson_7_main_background.jpg") no-repeat center;
+	border-radius: 20px 20px;
+	padding: 15px;
+	font-weight: 900;
+	color: rgb(6, 20, 45);
+
+}
+
+.lesson-7-page__paragraph__two {
+	height: 300px;
+	overflow: scroll;
+	background: linear-gradient(to bottom left, #FAFF5C 13%, #3A15CF 97%);
+	;
+	border-radius: 25px 25px;
+	margin: 0 auto 55px;
+	padding: 25px;
+	width: 90%;
+}
+
+.lesson-7-footer {
+	border-radius: 15px 15px 0 0;
+	max-height: 200px;
+	padding: 25px;
+	background: linear-gradient(to right, #0cbaba, #380036);
+}
+
+.lesson-7-page__paragraph__three {
+	padding: 20px;
+	max-height: 500px;
+	max-width: 500px;
+	overflow: scroll;
+	margin: 0 auto 25px;
+	width: 100%;
+	padding: 25px;
+	text-indent: 25px;
+	background: url("/img/lesson_7_main_background_2.jpg") center / 400px repeat-y scroll;
 }
